@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DIN Condensed';
+    src: local('DIN Condensed Regular'), local('DIN-Condensed-Regular'),
+        url('DINCondensed-Regular.woff2') format('woff2'),
+        url('DINCondensed-Regular.woff') format('woff'),
+        url('DINCondensed-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
