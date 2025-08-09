@@ -17,7 +17,7 @@ Handed down from Paturi Karthik, Hsu Stanley and modified and maintained by Dami
 2. **`xxx_data.xlsx`**: Download from Microsoft Forms once data is collated
 3. **`config.json`**: Update column names and file paths (see Configuration section below)
 4. **`url_to_jpg.py`**: Update paths and URLs for photo downloading
-
+'url_to_jpg.py': change "excel_path", "images_dir" variable and "cookies_jar" (Firefox or Chrome etc) accordingly, and copy paste the url of the Microsoft Forms responses page into the "Referer" variable. The url should look something like "https://nusu-my.sharepoint.com/:x:/r/personal/exxxxxxx_u_nus_edu/_layouts/..............Microsoft.Office.Excel.FMsFormsMetadataInWorkbookMetadata%3Atrue". Find the corresponding "User Agent" required by going to your browser, going to the Developer Tools page, then click on the "Network" tab, then click on one of the listed processes (the process will have a listed Status, Method, Domain etc.). Then under the "Headers" tab, look for the "Request Headers" tab and then find your "User Agent" to allow for authentication to download the images via the scripts.
 ## Configuration
 
 ### config.json Structure
