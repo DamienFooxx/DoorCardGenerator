@@ -2,7 +2,7 @@
 
 Generates Doorcards from a power point template using Microsoft Response forms responses.
 
-Handed down from Paturi Karthikm, Hsu Stanley and modified and maintained by Damien Foo.
+Handed down from Paturi Karthik, Hsu Stanley and modified and maintained by Damien Foo.
 
 ## Files/Folders You Don't Need to Modify
 
@@ -196,3 +196,4 @@ doorcardgen/
 - openpyxl >= 3.1.0
 - browser-cookie3 >= 0.19.0
 - requests >= 2.31.0
+
