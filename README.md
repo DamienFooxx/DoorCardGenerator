@@ -153,19 +153,32 @@ The script includes several validation features:
 4. **Error Reporting**: Detailed error messages for troubleshooting
 
 ## Template Designing (if you need to redesign the template)
+1. Open a new powerpoint in the templates folder and open View > Slide Master
 
-1. Open a new PowerPoint in the templates folder and open View > Slide Master
-2. Create a new layout
+![step1](./blobs/step1.png)
+
+2. Create a new layout.
+
+![step2](./blobs/step2.png)
+
 3. Design your doorcard template and exit slide master after you are done
+
+![step3](./blobs/step3.png)
+
 4. Create a new slide with your newly made layout
+
+![step4](./blobs/step4.png)
+
 5. Open selection pane to rename the textboxes
-6. Rename the textboxes accordingly:
-   - `Name` - for the person's name
-   - `Year` - for the year of study
-   - `Major` - for the major
-   - `Caption` - for the quote/caption
-   - `Picture` - for the photo placeholder
-7. Update the `template` path in `config.json` accordingly
+
+![step5](./blobs/step5.png)
+
+6. Rename the textboxes accordingly
+
+![stpe6](./blobs/step6.png)
+
+7. Update the **_TemplateLocation_** in the process.ipynb file accordingly
+
 
 ## File Structure Example
 
