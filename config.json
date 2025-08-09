@@ -1,0 +1,16 @@
+{
+    "column": {
+        "actualName": "Name",
+        "displayName": "Name to be displayed",
+        "year": "Year of Study",
+        "major": "Major",
+        "caption": "Quote to be displayed (should be preferably less than 15 words)"
+    },
+    "location": {
+        "excel": "NOCTUA Doorcards.xlsx",
+        "template": "./templates/door_card.pptx",
+        "font": "./font/DIN-Condensed-Bold.ttf",
+        "photo": "./2526_photos",
+        "target": "./2526_pptx"
+    }
+}
